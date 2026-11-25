@@ -15,6 +15,8 @@
     "clienttweaks.disableLogStripping": "Disable Log Stripping: %s",
   "clienttweaks.configuration.title": "Client Tweaks",
   "clienttweaks.configuration.ui": "UI",
+  "clienttweaks.configuration.ui.disableDoubleClickStacking": "Disable Double Click Stacking",
+  "clienttweaks.configuration.ui.disableDoubleClickStacking.tooltip": "This disables the Vanilla feature of double-clicking inventory slots resulting in all matching items being stacked on the cursor.",
   "clienttweaks.configuration.rendering": "Rendering",
   "clienttweaks.configuration.mobility": "Mobility",
   "clienttweaks.configuration.mining": "Mining",
