@@ -26,6 +26,9 @@ public class ClientTweaksConfigData implements BalmConfigData {
     public Customization customization = new Customization();
 
     public static class UI {
+        @Comment("This disables the Vanilla feature of double-clicking inventory slots resulting in all matching items being stacked on the cursor.")
+        public boolean disableDoubleClickStacking = false;
+
         @Comment("This adds back the master volume slider to the options screen. Saves you a click!")
         public boolean masterVolumeSlider = true;
 
