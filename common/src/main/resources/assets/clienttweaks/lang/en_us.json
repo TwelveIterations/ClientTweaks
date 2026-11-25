@@ -70,6 +70,8 @@
     "clienttweaks.configuration.building.chainBuildingSupport": "Chain Building Support",
     "clienttweaks.configuration.building.chainBuildingSupport.tooltip":  "This option will make chains have a bigger hitbox while placing them, making it easier to aim.",
     "clienttweaks.configuration.ui": "UI",
+    "clienttweaks.configuration.ui.disableDoubleClickStacking": "Disable Double Click Stacking",
+    "clienttweaks.configuration.ui.disableDoubleClickStacking.tooltip": "This disables the Vanilla feature of double-clicking inventory slots resulting in all matching items being stacked on the cursor.",
     "clienttweaks.configuration.ui.masterVolumeSlider": "Master Volume Slider",
     "clienttweaks.configuration.ui.masterVolumeSlider.tooltip":  "This adds back the master volume slider to the options screen. Saves you a click!",
     "clienttweaks.configuration.ui.musicVolumeSlider": "Music Volume Slider",
