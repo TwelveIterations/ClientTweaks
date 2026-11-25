@@ -204,5 +204,44 @@ public class ClientTweaksConfigData implements BalmConfigData {
         public List<String> foodItems = Lists.newArrayList(
                 "supplementaries:lunch_basket"
         );
+
+        @Comment("Additional block IDs allowed for pane building support, even if they're non-standard. Misfit blocks that deviate too far from Vanilla may still be skipped.")
+        @ExpectedType(ResourceLocation.class)
+        public Set<ResourceLocation> paneBuildingSupportBlocks = Set.of(
+                ResourceLocation.fromNamespaceAndPath("oreganized", "lead_bars"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "white_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "light_gray_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "gray_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "black_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "brown_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "maroon_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "rose_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "red_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "coral_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "ginger_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "orange_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "tan_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "beige_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "yellow_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "amber_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "olive_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "lime_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "forest_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "green_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "verdant_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "teal_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "cyan_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "mint_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "aqua_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "light_blue_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "blue_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "slate_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "navy_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "indigo_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "purple_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "magenta_crystal_glass_pane"),
+                ResourceLocation.fromNamespaceAndPath("oreganized", "pink_crystal_glass_pane")
+        );
+
     }
 }

@@ -92,6 +92,8 @@
   "clienttweaks.configuration.recipeBook.retainRecipeBookSearch": "Retain Recipe Book Search",
   "clienttweaks.configuration.recipeBook.retainRecipeBookSearch.tooltip": "This option retains recipe book search text when reopening the recipe book.",
   "clienttweaks.configuration.customization": "Customization",
+  "clienttweaks.configuration.customization.paneBuildingSupportBlocks": "Additional Pane Building Support Blocks",
+  "clienttweaks.configuration.customization.paneBuildingSupportBlocks.tooltip": "Additional block IDs allowed for pane building support, even if they're non-standard. Misfit blocks that deviate too far from Vanilla may still be skipped.",
   "clienttweaks.configuration.customization.torchItems": "Torch Items",
   "clienttweaks.configuration.customization.torchItems.tooltip":  "Items that count as torches for the offhand-torch tweak options.",
   "clienttweaks.configuration.customization.torchTools": "Torch Tools",
