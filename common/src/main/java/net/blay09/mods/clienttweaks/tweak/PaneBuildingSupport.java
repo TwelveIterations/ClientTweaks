@@ -2,6 +2,7 @@ package net.blay09.mods.clienttweaks.tweak;
 
 import net.blay09.mods.clienttweaks.ClientTweaksConfig;
 import net.minecraft.client.Minecraft;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CrossCollisionBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -54,7 +55,8 @@ public class PaneBuildingSupport {
             return false;
         }
 
-        return properties.size() == 4 || properties.size() == 5 && properties.contains(CrossCollisionBlock.WATERLOGGED);
+        return properties.size() == 4 || properties.size() == 5 && properties.contains(CrossCollisionBlock.WATERLOGGED)
+                || ClientTweaksConfig.getActive().customization.paneBuildingSupportBlocks.contains(BuiltInRegistries.BLOCK.getKey(state.getBlock()));
     }
 
     private static boolean isPillar(BlockState state) {
